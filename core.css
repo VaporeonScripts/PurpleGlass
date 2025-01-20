@@ -129,13 +129,13 @@
     --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
     --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
     --search-popout-date-picker-border: 1px solid var(--highlight);
-    --status-danger: rgb(152, 51, 255);
     --status-danger-background: var(--status-danger);
     --channel-header-color: var(--custom-channel-header-color);
     --channel-icon: var(--custom-channel-icon);
     --selected-channel-color: var(--custom-selected-channel-color);
     --cat-color: var(--cat-custom-color);
     --cat-color-rgba: var(--cat-custom-color-rgba);
+    --status-danger: var(--status-danger-rgb);
     --status-warning: var(--afk-color);
     --status-positive: var(--online-color);
     --profile-gradient-primary-color: var(--rgb-background);
@@ -1023,8 +1023,24 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     border-radius: 10px;
 }
 
-.large_f9a4c9, .medium_f9a4c9, .small_f9a4c9 {  /* windows theme */
+.large_f9a4c9, .medium_f9a4c9, .small_f9a4c9 {  /* modal theme */
     background: rgba(105, 15, 133, 0.8);
     border-radius: 10px;
     border: 1px solid var(--selected-channel-color);
+}
+.footer_f24a96, .footer_f9a4c9 { /* modal footer color */
+    background-color: rgba(35, 35, 35, 0.75);
+}
+
+.defaultTextInputWrapper_d274ca {   /* poll creation responses input area */
+    background-color: rgba(35, 35, 35, 0.596);
+}
+.defaultTextInputWrapper_d274ca input {   /* poll creation responses input area */
+    background-color: transparent;
+}
+.addAnswerButton_f24a96 {   /* poll creation add response bg */
+    background-color: rgba(35, 35, 35, 0.596);
+}
+.addAnswerButton_f24a96:hover {   /* poll creation add response bg (hover) */
+    background-color: rgba(35, 35, 35, 0.9);
 }
