@@ -144,7 +144,7 @@
     --menu-item-default-hover-bg: var(--highlight);
 
     --bg-brand: var(--highlight);
-    --darkPurple-background: rgb(46, 0, 58);
+    --button-filled-brand-background: var(--highlight);
 }
 
 .bg_d4b6c5{
@@ -432,10 +432,9 @@
 .themedBackground_d0696b {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
-.themedBackground_bdf0de {
+.themedBackground_bdf0de, .custom-profile-theme .inner_c59af2 {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
-
 
 .theme-dark .children_e44302:after,
 .form_a7d72e::before,
@@ -1023,7 +1022,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     border-radius: 10px;
 }
 
-.large_f9a4c9, .medium_f9a4c9, .small_f9a4c9 {  /* modal theme */
+.large_f9a4c9, .medium_f9a4c9, .small_f9a4c9, .modal_b545d5 {  /* modal theme */
     background: rgba(105, 15, 133, 0.8);
     border-radius: 10px;
     border: 1px solid var(--selected-channel-color);
@@ -1043,4 +1042,52 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 }
 .addAnswerButton_f24a96:hover {   /* poll creation add response bg (hover) */
     background-color: rgba(35, 35, 35, 0.9);
+}
+
+.voiceChannelsButton_a08117 {   /* show more voice channels button */
+    border: 1px solid var(--custom-channel-icon);
+}
+.voiceChannelsButton_a08117:hover {   /* show more voice channels button */
+    border: 1px solid var(--highlight);
+    background: var(--background-secondary);
+}
+
+.titleContainer_c1668f .input_f8bc55 {  /* fix to forum search bg */
+    background: none;
+}
+
+.chat_a7d72e .container_f1fd9c {    /* channels & roles tab */
+    background: none !important;
+}
+.pageBody_c2efea {  /* channels & roles tab */
+    margin-top: 10px;
+    background: rgba(105, 15, 133, 0.8);
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
+.chat_a7d72e .header_f1fd9c {   /* channels & roles tab */
+    background: var(--background-secondary) !important;
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
+
+.inspector_c3120f, .contentWrapper_af5dbb { /* emoji tab */
+    background: var(--darkPurple-background);
+}
+.header_a3bc57, .container_c18ec9 { /* emoji tab */
+    background-color: rgba(35, 35, 35, 0.596);
+}
+.emojiItem_fbfedd.emojiItemSelected_fbfedd, .stickerAsset_cb3343:hover {    /* emoji tab */
+    background-color: var(--background-message-highlight-hover);
+}
+.lottieCanvas_cb3343 {  /* emoji tab canvas */
+    border-radius: 6px;
+}
+
+.emptyChannelIcon_c2668b { /* empty channel icon bg */
+    background-color: var(--background-primary);
+}
+
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d {   /* nitro profile buttons */
+    background: var(--button-background-static);
 }
