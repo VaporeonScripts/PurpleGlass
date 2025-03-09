@@ -1,16 +1,17 @@
 /**
  * @name LinuxUI
  * @author Natsuyami
- * @version 1.1.0 Custom
+ * @version LatestLinux
  * @source https://github.com/VaporeonScripts/PurpleGlass
  * @website https://discord.gg/8Hz9qTjJaB
  * @description LinuxUI implements a glass purple and lightblue details on your client!
  * @authorId 826449337776603206
  * @invite 8Hz9qTjJaB
- */
+*/
 
 @import url('https://raw.githubusercontent.com/VaporeonScripts/PurpleGlass/refs/heads/main/core.css');
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/mac_dots/dots.css");
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -46,8 +47,8 @@
 
   --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
 
-  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.svg'); /* custom logo .svg file preferred */
-  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.svg'); /* custom logo .svg file preferred (hover) */
+  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.svg'); /* custom logo */
+  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.svg'); /* custom logo (hover) */
 
   /* FONTS */
   --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -57,4 +58,5 @@
   --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --current-ver: "LatestLinux"
 }
