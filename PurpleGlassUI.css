@@ -12,7 +12,6 @@
 @import url('https://raw.githubusercontent.com/VaporeonScripts/PurpleGlass/refs/heads/main/core.css');
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/title_bar/custom_title.css"); /* comment/remove to bring back server icon and name in topbar */
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -42,7 +41,7 @@
     --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
 
     --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
-    --app-blur: 1px;                                              /* background image blur */
+    --app-blur: 0px;                                              /* background image blur */
 
     --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
     --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
