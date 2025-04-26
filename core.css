@@ -1,7 +1,7 @@
 /*
  *name          LinuxUI
  *author        @VaporeonScripts
- *internalcode  LinuxUI
+ *internalcode  AWKGLASS
  *version       #20250423
 */
 
@@ -1829,6 +1829,7 @@ span[class*="timestampInline_"] {
 .visual-refresh .mention__3b95d { /* serverlist ping/DM notification */
     border: 1.5px solid var(--status-danger);
     border-radius: 5px;
+    box-shadow: none;
 }
 .mention__3b95d:active {
     background: var(--status-danger);
