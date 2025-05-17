@@ -1,6 +1,6 @@
 /*
- *name          Lande della Discordia
- *author        @ungiglio
+ *name          LinuxUI
+ *author        @Natsuyami
  *internalcode  AWKGLASS
  *version       #20250423
 */
@@ -16,7 +16,7 @@
 
     /*Background*/
     --background-image: var(--custom-image-url);
-    --app-blur: 1px;
+    --app-blur: 0px;
     --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
     --button-background-static: var(--highlight);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
