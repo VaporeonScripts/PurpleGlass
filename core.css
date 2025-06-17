@@ -16,7 +16,7 @@
 
     /*Background*/
     --background-image: var(--custom-image-url);
-    --app-blur: 0px;
+    --app-blur: 1px;
     --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
     --button-background-static: var(--highlight);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
@@ -25,9 +25,6 @@
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
     --custom-spoiler-color: rgb(148, 83, 212);
     --box-shadow: 0 0 10px 0px black;
-
-    --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png');
-    --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png');
 
     /*other*/
     --highlight: rgb(var(--rgb-highlight));
