@@ -161,7 +161,7 @@
     --spoiler-hidden-background: var(--custom-spoiler-color) !important;
     --spoiler-hidden-background-hover: var(--highlight) !important;
 
-    --ver: "Lande della Discordia ("var(--current-ver)") "var(--file-ver);
+    --ver: "LinuxUI ("var(--current-ver)") "var(--file-ver);
 }
 
 .info__2debe::before {
