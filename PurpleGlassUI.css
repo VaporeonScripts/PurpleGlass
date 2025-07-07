@@ -1,7 +1,7 @@
 /**
  * @name LinuxUI
  * @author Kurotsuki
- * @version V2
+ * @version 2.0
  * @source https://github.com/VaporeonScripts/PurpleGlass
  * @website https://discord.gg/8Hz9qTjJaB
  * @description LinuxUI implements a glass purple and lightblue details on your client!
@@ -25,10 +25,10 @@
 
   --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
-  --custom-title-text: "LinuxUI";            /* The custom text you want to display */
+  --custom-title-text: "CachyCord";            /* The custom text you want to display */
   --custom-title-font-size: 14px;                          /* The size in pixels of the custom title text */
   --custom-title-font-family: "Pirata One", var(--font-primary);/* The font family of the custom title */
-Lande della Discordia
+
   --custom-channel-header-color: rgb(241, 236, 247);
   --custom-channel-icon: rgb(153, 118, 187);              /* channel list unselected color */
   --channel-icon: rgb(153, 118, 187) !important;          /* channel list unselected color */
@@ -41,7 +41,7 @@ Lande della Discordia
   --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
 
   --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
-  --app-blur: 0px;                                              /* background image blur */
+  --app-blur: 8px;                                              /* background image blur */
 
   --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
   --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
@@ -54,6 +54,11 @@ Lande della Discordia
     --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 
-    --current-ver: "V2"
+    /* DEV PANEL INFO */
+    --show-dev-panel-info-static: 0; /* Set to 1 to show the static version, 0 to hide | (NOTE: for static to work also hover need to be 1) */
+    --show-dev-panel-info-hover: 0; /* Set to 1 to show the static and hover version, put 0 to hide */
+  
+    --current-ver: "LatestLinux"
 }
